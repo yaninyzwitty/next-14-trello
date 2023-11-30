@@ -16,8 +16,8 @@ function MobileSidebar() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true), [];
-  });
+    setIsMounted(true);
+  }, []);
 
   useEffect(() => {
     onClose();
